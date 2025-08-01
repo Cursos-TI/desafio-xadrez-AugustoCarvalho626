@@ -76,7 +76,7 @@ int main(){
      do {
 
         printf("Rainha está na casa H3: Coluna H / Linha 3\n");
-        printf("Movimente a Rainha 8 casa à direita na vertical.\n");
+        printf("Movimente a Rainha 8 casa à esquerda na vertical.\n");
         printf("Digite com letra maiuscula, a letra da coluna:\n");
         scanf(" %c", &coluna_rainha);
         printf("Digite o número da linha:\n");
