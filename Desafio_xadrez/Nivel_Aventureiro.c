@@ -21,7 +21,7 @@ int main(){
     
 // ultiliando while
 
-    printf("Movimentando o Bispo 5 casa à direita na vertical.\n");
+    printf("Movimentando o Bispo 5 casa à direita na diagonal.\n");
       
     while (passos_bispo < 5) 
     {
@@ -54,7 +54,7 @@ int main(){
     for (int i =0; i < 2; i++){
         printf("Cavalo para baixo\n");
     }
-    printf("Cavalo para direita\n");
+    printf("Cavalo para esquerda\n");
    }
    
 
