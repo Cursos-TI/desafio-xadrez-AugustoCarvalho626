@@ -61,20 +61,21 @@ int main(){
 
 // Declaração de variáveis para o Cavalo
 
-   int ultimo_movimento = 1;
+   int movimento = 0;
 
-// ultiliando estrutura aninhada com while e for
+// ultiliando  for
 
    printf("Movimentando o Cavalo para cima em L.\n");
 
-   while (ultimo_movimento--)
-   {
-    for (int i =0; i < 2; i++){
+   for (int i = 0; i < 3; i++)
+    if (movimento < 2){
         printf("Cavalo para Cima\n");
+        movimento++;
+    }else{
+        printf("Cavalo para Direita\n"); 
     }
-    printf("Cavalo para Direita\n");
-   }
-   
+       
+    
 
 
     return 0;
